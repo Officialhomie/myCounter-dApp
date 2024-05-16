@@ -13,7 +13,7 @@ const Login: React.FC = () => {
         <div className="flex flex-col items-center justify-center h-[100vh] border border-green-500">
             {account ? (
                 
-                <div className="text-center">
+                <div>
                     <ConnectButton client={client} chain={chain}
                     connectModal={{
                         size: "compact"
@@ -23,7 +23,7 @@ const Login: React.FC = () => {
                 
                 
             ) : (
-                <div className="text-center">
+                <div>
                     <ConnectButton client={client} chain={chain}
                     connectModal={{
                         size: "compact"
